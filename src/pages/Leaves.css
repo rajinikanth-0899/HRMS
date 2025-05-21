@@ -1,0 +1,97 @@
+.leaves-container {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .leaves-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .leaves-title {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .leaves-buttons .btn {
+    padding: 6px 12px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .btn.blue {
+    background-color: #007bff;
+  }
+  
+  .btn.cyan {
+    background-color: #17c1e8;
+  }
+  
+  .btn.green {
+    background-color: #28a745;
+  }
+  
+  .leaves-search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 30%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .leaves-stats .stat {
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .orange {
+    color: #ff9900;
+  }
+  
+  .leaves-table-container {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .leaves-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .leaves-table th,
+  .leaves-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .no-options {
+    text-align: center;
+    color: #999;
+    padding: 20px 0;
+  }
+  

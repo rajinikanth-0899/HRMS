@@ -1,0 +1,17 @@
+export const holidays = [
+    { date: '2025-01-01', name: 'New Year\'s Day' },
+    { date: '2025-01-14', name: 'Makar Sankranti' },
+    { date: '2025-01-26', name: 'Republic Day' },
+    { date: '2025-03-17', name: 'Holi' },
+    { date: '2025-04-10', name: 'Good Friday' },
+    { date: '2025-04-14', name: 'Ambedkar Jayanti' },
+    { date: '2025-05-01', name: 'May Day' },
+    { date: '2025-06-21', name: 'Summer Solstice' },
+    { date: '2025-07-21', name: 'Bakrid' },
+    { date: '2025-08-15', name: 'Independence Day' },
+    { date: '2025-08-28', name: 'Krishna Janmashtami' },
+    { date: '2025-10-02', name: 'Gandhi Jayanti' },
+    { date: '2025-10-20', name: 'Dussehra' },
+    { date: '2025-11-01', name: 'Karnataka Rajyotsava' },
+    { date: '2025-12-25', name: 'Christmas' },
+  ]

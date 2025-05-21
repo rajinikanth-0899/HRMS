@@ -1,0 +1,150 @@
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+
+.login-left {
+  width: 70%;
+  margin: 5px;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-left-img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.login-right {
+  width: 30%;
+  margin: 1.8rem;
+  border-radius: 10px;
+  background-color: #a8d3e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.login-tagline {
+  font-size: 18px;
+  color: #4b5563;
+  font-weight: 600;
+}
+
+
+.login-illustration {
+  width: 180px;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+
+.inputs {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.login-input {
+  width: 100%;
+  padding: 12px 5px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+  background-color: white;
+}
+
+.login-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+
+.password-input {
+  position: relative;
+  width: 100%;
+}
+
+
+.toggle-password {
+  position: absolute;
+  right: 0px;
+  top: 55%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.toggle-password:hover {
+  color: #000;
+}
+
+
+.login-button {
+  width: 50%;
+  padding: 12px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #4338ca;
+}
+
+
+.login-error {
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.login-forgot-password {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #f59e0b;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.login-forgot-password:hover {
+  color: #d97706;
+}
